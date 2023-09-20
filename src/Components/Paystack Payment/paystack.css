@@ -1,0 +1,21 @@
+#frame{
+    height: 80vh;
+}
+#obj{
+    width:70%;
+    height: 80%;
+
+}
+
+#success{
+    height: 70vh;
+}
+
+@media screen and (max-width: 768px)  {
+    #obj{
+        width:100%;
+        height: 70%;
+    
+    }
+}
+

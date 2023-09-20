@@ -1,0 +1,21 @@
+#footer{
+    color: white;
+    width: 100vw;
+}
+.social-links{
+    display:flex
+}
+.social-links a {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+  }

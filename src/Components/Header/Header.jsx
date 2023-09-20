@@ -1,0 +1,25 @@
+import React from "react";
+import './Header.css';
+
+
+const Header = () => {
+
+
+    return (
+        <div id="header">
+
+            
+            <div className="text-center mx-auto p-5">
+                <img src="./src/assets/book.png" className="img-fluid" width="200rem"/>
+                <h1 className="text-brown">Bookccentric</h1>
+                <p className="h5 text-brown">The Ultimate Destination for Bookccentrics Accross All Genres</p>
+                
+
+            </div>
+            
+        </div>
+    )
+
+}
+
+export default Header;
