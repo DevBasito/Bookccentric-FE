@@ -1,7 +1,6 @@
 import Huddle from './Huddle.svg';
 import Bookccentric from './BookccentricLogo.png'
 import JR from './JR.jpg';
-import JrLogo from './JrLogo.svg';
 import Cart from './icon-cart.svg';
 import Minus from './icon-minus.svg';
 import Plus from './icon-plus.svg';
@@ -12,7 +11,6 @@ const images = {
     Bookccentric,
     Logo,
     JR,
-    JrLogo,
     Cart,
     Minus,
     Plus,
