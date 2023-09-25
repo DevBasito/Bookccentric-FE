@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css';
+import images from "../../assets/images";
 
 
 const Header = () => {
@@ -10,7 +11,7 @@ const Header = () => {
 
             
             <div className="text-center mx-auto p-5">
-                <img src="./src/assets/book.png" className="img-fluid" width="200rem"/>
+                <img src={images.Logo} className="img-fluid" width="200rem"/>
                 <h1 className="text-brown">Bookccentric</h1>
                 <p className="h5 text-brown">The Ultimate Destination for Bookccentrics Accross All Genres</p>
                 
