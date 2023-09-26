@@ -79,7 +79,7 @@ const Paystack = () => {
                 <div className="py-3" >
                     Do not Refresh or Close this page while payment is being processed. 
                     <br/>
-                    You will be redirected when payment is Successful
+                    You will be redirected when payment is Successful and Verified.
 
                 </div>
                 <object id="obj" data={paystack.data.authorization_url} > </object>

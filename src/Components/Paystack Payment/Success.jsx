@@ -25,7 +25,8 @@ const Success = () => {
                 <h3 className="pt-3">Payment Successful</h3>
                 <br />
                 <h3>Your Order have been placed succesfully.
-                    A mail will be sent to you and our customer rep will contact you soon
+                    A mail will be sent to you and our customer rep will contact you soon.
+                    Kindly check your Spam mail
                 </h3>
                 <br />
                 <h3>Thanks for your Patronage</h3>
