@@ -20,6 +20,8 @@ body {
   /* place-items: center; */ 
   min-height: 100vh;
   /* background-color: #F7F7F8; */
+  padding-top: 50px;
+  
 }
 
 .bg-brown{

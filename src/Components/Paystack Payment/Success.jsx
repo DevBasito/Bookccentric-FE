@@ -20,7 +20,7 @@ const Success = () => {
 
     return (
         <>
-            <div className="text-center w-75 mx-auto my-auto p-5" id="success">
+            <div className="text-center  mx-auto my-auto p-5" id="success">
                 <img src={images.Success} className="img-fluid h-50" />
                 <h3 className="pt-3">Payment Successful</h3>
                 <br />
