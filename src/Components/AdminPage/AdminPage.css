@@ -2,3 +2,6 @@
     background-color: #f2f5f7;
     width: 100vw;
 }
+.card{
+    box-shadow: 5px 10px 8px 10px #593D28;
+}

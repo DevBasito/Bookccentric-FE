@@ -45,6 +45,10 @@ const Nav = () => {
 
         <div className="navbar navbar-dark bg-brown2 d-sm-none row ">
 
+
+
+          {/* Nav For mobile */}
+
           <div className="col-2">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
               aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,6 +68,8 @@ const Nav = () => {
         </div>
 
 
+{/* Nav For Desktop */}
+
         <nav className="navbar navbar-expand-sm bg-brown2 " id="navbarToggleExternalContent">
           <div className="col-4  text-light d-none d-sm-flex" >
             <img src={images.Bookccentric} alt="Logo" className="img-fluid" />
@@ -77,7 +83,7 @@ const Nav = () => {
                 <Link className="nav-link text-white" to="/books">Library</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="/login">About</Link>
+                <Link className="nav-link text-white" to="/about">About</Link>
               </li>
              
 
@@ -87,18 +93,18 @@ const Nav = () => {
           {
             <div className="container-fluid text-white col-12 col-sm-4 text-white justify-content-end px-5 d-none d-sm-flex">
               <ul className="navbar-nav">
-                <li className="nav-item">
+                <li className="nav-item me-3 align-self-center">
                   <img src={images.Cart} alt="" data-bs-toggle="modal" data-bs-target="#cart"/>
                   <span className="position-absolute top-5 translate-middle badge rounded-pill bg-light text-dark " id="badge-lg">{cartNo}</span>
                 </li>
                 {!user ?
                   (<li className="nav-item">
-                    <Link className="nav-link text-white " to="/login">Admin</Link>
+                    <Link className="nav-link text-white  me-3" to="/login">Admin</Link>
                   </li>)
                   :
                   (<>
                     <li className="nav-item">
-                      <Link className="nav-link text-white" to="/admin"><i className="fa fa-user"></i> {user.user.email} </Link>
+                      <Link className="nav-link text-white me-3" to="/admin"><i className="fa fa-user"></i> {user.user.email} </Link>
                     </li>
                     <li>
                       <button className="btn bg-brown text-white " onClick={logout}>LogOut</button>

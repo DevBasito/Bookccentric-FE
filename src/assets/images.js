@@ -7,6 +7,7 @@ import Plus from './icon-plus.svg';
 import CartW from './icon-cart-w.svg';
 import Logo from './book.png';
 import Success from './success.gif'
+import Read from './read.png'
 const images = {
     Bookccentric,
     Logo,
@@ -15,7 +16,8 @@ const images = {
     Minus,
     Plus,
     CartW,
-    Success
+    Success,
+    Read
 }
 
 export default images
