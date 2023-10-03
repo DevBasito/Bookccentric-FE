@@ -131,9 +131,13 @@ const NewBookModal = () => {
 
 
             <div className="modal-footer">
-              <button className="btn btn-danger" data-bs-dismiss="modal" onClick={close}>Close</button>
+              <button className="btn text-brown text-large" data-bs-dismiss="modal" onClick={close}>
+              <i className="fas fa-angle-double-left text-brown"></i>  Back
+                </button>
             </div>
 
+
+          
           </div>
         </div>
       </div>
