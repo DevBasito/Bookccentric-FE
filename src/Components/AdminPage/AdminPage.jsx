@@ -75,7 +75,7 @@ const AdminPage = () => {
         <div id="AdminPage" className="mt-5 bg-white">
 
 
-            <div className="container-fluid row p-2 w-100  text-dark h3 ">
+            <div className="container-fluid row p-2 w-100  text-dark h3 " >
                 <div className="col text-center"> Hello, {user.user.firstname} {user.user.lastname}</div>
 
             </div>
@@ -83,7 +83,7 @@ const AdminPage = () => {
             <div className="container d-flex flex-row justify-content-between my-5">
 
 
-                <div className="card col-lg-3 mx-lg-5 my-3 p-3 bg-brown2 text-center">
+                <div className="card col-lg-3 mx-lg-5 my-3 p-3 bg-brown2 text-center" onClick={()=>{navigate("/orders")}}>
                     <div className="card-body text-white">
                         <h1 className="card-title">{dashboard.TotalOrders}</h1>
                         <h6 className="card-text text-brown">Total Orders</h6>

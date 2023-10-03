@@ -66,7 +66,7 @@ const Checkout = () => {
 
   return (
     <>
-      <div id="form" className="container  mx-auto col-lg-6 p-5 bg-white rounded-3">
+      <div id="form" className="container  mx-auto col-lg-6 p-5 bg-white rounded-3 mt-5">
 
         {error &&
           <div className="w-50 text-white p-3 float-end bg-danger mb-3">

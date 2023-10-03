@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Orderlist = () => {
     const { user } = useSelector(state => state.user);
-    const { VITE_API_URI} = import.meta.env;
+    const { VITE_API_URI } = import.meta.env;
     const [orders, setOrders] = useState(null)
     const navigate = useNavigate();
 
@@ -35,9 +35,21 @@ const Orderlist = () => {
 
     return (
         <>
-            <div className="" id="Ordersmodal">
+            <div className="mt-5" id="Ordersmodal">
 
-                <div className="text-center  p-3 h4">List of Orders</div>
+                {/* <div className="text-center  p-3 h4">List of Orders</div> */}
+
+                <div className="container-fluid d-flex flex-direction-row justify-content-between w-100 mb-2 px-5">
+                    <div className="h3">List of Orders</div>
+                    <div>
+                        <button className="btn  text-brown text-large mx-3" onClick={() => { navigate("/admin") }}>
+                            <i className="fas fa-angle-double-left text-brown"></i>  Back
+                        </button>
+
+
+                    </div>
+
+                </div>
 
 
 
@@ -54,7 +66,7 @@ const Orderlist = () => {
                                 <th>Payment</th>
                                 <th>Email</th>
                                 <th>Fullname</th>
-                                <th>Phone Number</th>                             
+                                <th>Phone Number</th>
                                 <th>Address</th>
                                 <th>Delivered?</th>
                                 <th>Placement Date</th>
@@ -67,12 +79,12 @@ const Orderlist = () => {
 
                                 <tr className="" key={order._id}>
 
-                               
+
 
                                     <td>{order.products}</td>
                                     <td>{order.quantity}</td>
                                     <td>{order.order_ref}</td>
-                                    <td>{order.amount}</td>                                    
+                                    <td>{order.amount}</td>
                                     {order.payment_yn ?
                                         <td>Yes</td> :
                                         <td>No</td>

@@ -12,7 +12,7 @@ const Paystack = () => {
     const navigate = useNavigate();
     const dispatch = useDispatch()
 
-    const counter = setInterval(()=>{setTimer(timer+1)}, 30000);
+    const counter = setInterval(()=>{setTimer(timer+1)}, 15000);
 
 
     
@@ -75,7 +75,7 @@ const Paystack = () => {
 
     return (
         <>
-            <div className="text-center w-75 mx-auto" id="frame">
+            <div className="text-center w-75 mx-auto mt-5" id="frame">
                 <div className="py-3" >
                     Do not Refresh or Close this page while payment is being processed. 
                     <br/>
