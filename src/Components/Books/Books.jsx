@@ -31,11 +31,11 @@ const Books = () => {
             <Header />
             <div id="books" className="p-3">
 
-                <div className="container row mx-auto">
+                <div className=" container row mx-auto justify-content-between ">
 
                     {books && books.map((book) => (
 
-                        <div className="card col-lg-3 mx-lg-5 my-3 p-3 bg-brown2 " key={book._id}>
+                        <div className="card col-md-3 mx-3 my-3 p-3 bg-brown2 " key={book._id}>
                             <div >
                                 <img className="card-img-top img-fluid" src={book.imageUrl} style={{ width: "100%", height: "25rem" }} />
                             </div>

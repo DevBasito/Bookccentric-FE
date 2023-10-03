@@ -6,7 +6,7 @@
     box-shadow: 5px 10px 8px 10px #593D28;
     cursor: pointer;
 }
-.card:hover{  
-    flex-grow: 2;
+#cards > .card:hover{  
+    flex-grow: 1;
 }
     

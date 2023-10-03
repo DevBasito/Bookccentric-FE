@@ -80,7 +80,7 @@ const AdminPage = () => {
 
             </div>
 
-            <div className="container d-flex flex-row justify-content-between my-5">
+            <div className="container d-flex flex-row justify-content-between my-5" id="cards">
 
 
                 <div className="card col-lg-3 mx-lg-5 my-3 p-3 bg-brown2 text-center" onClick={()=>{navigate("/orders")}}>
