@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import './Login.css';
 import { useDispatch, useSelector } from "react-redux";
 import { setData } from "../../../Redux/User";
+import images from "../../assets/images";
 
 
 const Login = () => {
@@ -55,7 +56,7 @@ const Login = () => {
             <div id="form" className="container  mx-auto col-lg-6 p-5 bg-white rounded-3">
 
                 <div className="text-center">
-                <img src="./src/assets/book.png" className="img-fluid" width="100px"/>
+                <img src={images.Logo} className="img-fluid" width="100px"/>
                     <p className="mt-3">Welcome, Kindly Login</p>
 
                 </div>
