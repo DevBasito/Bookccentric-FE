@@ -31,7 +31,7 @@ const Books = () => {
             <Header />
             <div id="books" className="p-3">
 
-                <div className=" container row mx-auto justify-content-between ">
+                <div className=" container row mx-auto justify-content-center justify-content-md-between ">
 
                     {books && books.map((book) => (
 
