@@ -93,8 +93,8 @@ const Nav = () => {
           {
             <div className="container-fluid text-white col-12 col-sm-4 text-white justify-content-end px-5 d-none d-sm-flex">
               <ul className="navbar-nav">
-                <li className="nav-item me-3 align-self-center">
-                  <img src={images.Cart} alt="" data-bs-toggle="modal" data-bs-target="#cart"/>
+                <li className="nav-item me-3 align-self-center" id="cartcounter" data-bs-toggle="modal" data-bs-target="#cart">
+                  <img src={images.Cart} alt="" />
                   <span className="position-absolute top-5 translate-middle badge rounded-pill bg-light text-dark " id="badge-lg">{cartNo}</span>
                 </li>
                 {!user ?

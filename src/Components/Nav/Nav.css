@@ -6,3 +6,6 @@
     z-index: 1;
 
 }
+#cartcounter{
+    cursor: pointer;
+}
