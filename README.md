@@ -4,7 +4,6 @@ An E-Bookstore Web Application
 ## Overview
 
 This project was bootstrapped with [Vite React App](https://Vitejs.dev).
-### The challenge
 
 ### Screenshot
 
@@ -17,8 +16,7 @@ This project was bootstrapped with [Vite React App](https://Vitejs.dev).
 - Solution URL: [https://github.com/DevBasito/Bookccentric-FE]
 - Live Site URL: [https://bookccentric.onrender,com/]
 - Server URL: [https://bookccentric-backend.onrender.com/]
-
-## My process
+- Login Details For Admin (Librarian@bookccentric.com/default$123)
 
 ### Built with
 
