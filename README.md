@@ -8,8 +8,8 @@ This project was bootstrapped with [Vite React App](https://Vitejs.dev).
 
 ### Screenshot
 
-![](./public/space_tourism_screenshot.png)
-![](./public/space_tourism_mobile_screenshot.png)
+![](./public/BC.png)
+![](./public/BC1.png)
 
 
 ### Links
