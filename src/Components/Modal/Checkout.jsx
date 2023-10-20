@@ -36,6 +36,7 @@ const Checkout = () => {
       amount: amount * 100,
       currency: "NGN",
       address: address,
+      channels: ["Card"]
 
     }
     const response = await fetch("https://api.paystack.co/transaction/initialize", {
